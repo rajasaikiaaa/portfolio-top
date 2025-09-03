@@ -2,23 +2,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 1500px;
 }
 nav {
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(17, 21, 43);
+    background-color: #1F2937;
     color: white;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -29,12 +30,12 @@ ul {
     font-size: 25px;
 }
 .heading-para {
-    font-size: 72px;
-    font-weight: 700;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .para {
-    font-size: 23px;
+    font-size: 18px;
     margin: 10px auto;
 }
 
@@ -49,12 +50,13 @@ button {
 }
 .container1 {
     display: flex;
-    background-color: rgb(17, 21, 43);
+    background-color: #1F2937;
     flex: 1;
-    padding: 20px;
-    gap: 20px;
+    padding: 70px 20px;
+    gap: 100px;
     align-items: center;
     color: white;
+
     
 }
 
@@ -80,6 +82,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    margin-top: 40px;
 }
 
 .box {
@@ -104,4 +107,71 @@ button {
 h2 {
     font-size: 40px;
     font-weight: 700;
+}
+
+
+.container3 {
+    display: flex;
+    background-color: rgb(186, 187, 187);
+    flex: 1;
+    padding: 100px 20px;
+    gap: 20px;
+    align-items: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.quote-box {
+    margin: auto;
+    width: 40%;
+}
+
+.quote {
+    font-size: 35px;
+    font-style: italic;
+    color: black;
+}
+
+.sign {
+    text-align: end;
+    color: black;
+}
+
+.container4 {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 90px 0;
+}
+
+.call {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #3882F6;
+    padding: 40px 70px;
+    border-radius: 10px;
+    gap: 300px;
+}
+
+.call > button {
+    background-color: #3882F6;
+    border: 1px solid white;
+}
+
+
+.container5 {
+    display: flex;
+    background-color: rgb(24, 41, 41);
+    flex: 1;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 40px 0;
 }
